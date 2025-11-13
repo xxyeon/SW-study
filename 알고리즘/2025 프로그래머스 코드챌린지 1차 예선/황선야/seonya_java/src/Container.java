@@ -74,7 +74,6 @@ class Container {
                             char e = space[i][j+1];
                             char w = space[i][j-1];
                             // 아직 미해결..
-
                             if(canout(s,n,e,w)){
                                 boolean eq = rq.equals(String.valueOf(space[i][j]));
                                 if(eq){
