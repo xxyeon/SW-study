@@ -1,5 +1,7 @@
 package week2;
 
+import java.util.*;
+
 public class Box {
     public static void main(String[] args) {
         Box m = new Box();
@@ -7,6 +9,8 @@ public class Box {
         int r2 = m.solution(12, 3, 6);
         int r3 = m.solution(37, 8, 1);
         System.out.println("테스트 케이스 3 결과: " + r3); // 3
+
+        List<String>ss = new ArrayList<>();
     }
 
     public int solution(int n, int w, int num) {
